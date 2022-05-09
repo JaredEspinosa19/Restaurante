@@ -5,6 +5,7 @@
 package restaurante;
 
 import restaurante.GUI.Pantalla_Inicial;
+import restaurante.GUI.Registrarse;
 
 
 /**
@@ -19,9 +20,11 @@ public class Restaurante {
     public static void main(String[] args) {
         // TODO code application logic here
     
-    Pantalla_Inicial P= new Pantalla_Inicial();
-    P.setVisible(true);
+    //Pantalla_Inicial P= new Pantalla_Inicial();
+    //P.setVisible(true);
     
+    Registrarse R = new Registrarse();
+    R.setVisible(true);
     
     }
     
